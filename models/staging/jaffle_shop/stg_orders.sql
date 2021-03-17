@@ -11,3 +11,5 @@ with orders as (
 )
 
 select * from orders
+
+{{ limited_data_in_dev(order_date) }}
